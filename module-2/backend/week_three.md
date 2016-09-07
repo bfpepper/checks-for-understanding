@@ -38,7 +38,6 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
 
       <%= f.label :breed %>
       <%= f.text_field :breed %>
-
       <%= f.submit %>
 14. Why do we want to validate our models?
     for many reasons. Mostly to ensure that the new entry is not submitted to the DB without being completly filled out. 
